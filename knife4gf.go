@@ -41,7 +41,7 @@ const (
 )
 
 const (
-	docPath = "/kdoc"
+	docPath = "/doc"
 )
 
 // Name returns the name of the plugin.
