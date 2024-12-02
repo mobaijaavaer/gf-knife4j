@@ -1,4 +1,4 @@
-module github.com/iasuma/knife4gf
+module github.com/mobaijaavaer/knife4gf
 
 go 1.17
 
