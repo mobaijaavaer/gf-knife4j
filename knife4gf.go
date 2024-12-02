@@ -92,15 +92,9 @@ func (kf *Knife4gf) Install(s *ghttp.Server) error {
 	s.AddStaticPath(kdocPath, "resource/swagger")
 	s.SetRewrite(kdocPath+"/api.json", "/api.json")
 	s.BindHandler(kdocPath+"/services", func(r *ghttp.Request) {
-		var (
-			err error
-		)
-
 		content := service.ApiServices(s)
-		err = r.Response.WriteJsonExit(content)
-		if err != nil {
-			s.Logger().Error(ctx, err)
-		}
+		r.Response.WriteJsonExit(content)
+
 	})
 	s.Logger().Infof(
 		ctx,
