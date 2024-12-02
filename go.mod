@@ -1,6 +1,6 @@
-module github.com/mobaijaavaer/knife4gf
+module github.com/mobaijaavaer/gf-knife4j
 
-go 1.17
+go 1.22
 
 require github.com/gogf/gf/v2 v2.8.1
 

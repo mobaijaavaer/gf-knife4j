@@ -8,8 +8,8 @@ import (
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
-	"github.com/iasuma/knife4gf/internal/service"
-	"github.com/iasuma/knife4gf/packed"
+	"github.com/mobaijaavaer/knife4gf/internal/service"
+	"github.com/mobaijaavaer/knife4gf/packed"
 	"time"
 )
 
@@ -35,7 +35,7 @@ const (
 	Name               = "knife4gf"
 	Author             = "sqiu_li@163.com"
 	Version            = "v1.0.0"
-	Description        = "knife4gf is knife4j for GoFrame GoFrame project. https://github.com/iasuma/knife4gf"
+	Description        = "knife4gf is knife4j for GoFrame GoFrame project. https://github.com/mobaijaavaer/knife4gf"
 	MaxAuthAttempts    = 10          // Max authentication count for failure try.
 	AuthFailedInterval = time.Minute // Authentication retry interval after last failed.
 )
