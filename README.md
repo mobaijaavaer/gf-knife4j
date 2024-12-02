@@ -4,7 +4,7 @@ knife4gf is swagger ui for GoFrame V2, it based on knife4j.
 ### 使用
 1. 安装`knife4gf`
 ```
-go get -u github.com/mobaijaavaer/knife4gf@{tag}
+go get -u github.com/mobaijaavaer/gf-knife4j@{tag}
 ```
 
 2. 引入`knife4gf`
@@ -13,7 +13,7 @@ package main
 
 import (
     "github.com/gogf/gf/v2/frame/g"
-    "github.com/mobaijaavaer/knife4gf"
+    "github.com/mobaijaavaer/gf-knife4j"
 )
 
 func main() {
